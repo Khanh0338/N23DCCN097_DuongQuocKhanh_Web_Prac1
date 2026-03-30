@@ -21,6 +21,12 @@ export default async function HomePage() {
           ))}
         </div>
       </div>
+
+      {/* Thêm footer này */}
+      <footer className="text-center py-8 text-gray-400 text-sm border-t mt-10">
+        © 2025 MyStore · Built with Next.js & Tailwind CSS
+      </footer>
+
     </main>
   );
 }
